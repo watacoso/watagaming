@@ -1,0 +1,98 @@
+#TODO
+
+what the game needs: 
+
+PROPER ENEMY SPAWNING
+
+As it is now, the enemies spawn on danger time, at regular intervals. every swarm comes in full, and the budget is randomized into a certain range.
+
+It's not a good design, since throught the level the difficulty is not incremental. also, seeing all the swarm at once coming from a side of the window is not really appealing.
+
+instead of a random budget, i will use an incremental budget that starts from the mininum value of the level, and it stops when it reaches the max value. 
+
+i will insert enemies of the same swarm at a fixed iterval ( decided by the level).
+
+Furthermore, the game needs a rehauling of the level definition parameters, with briefer safe times, and a higher difficulty beating enemies
+
+
+
+MORE ENEMIES
+
+2 is a sad number for the foes on this game. i need to design at least another Foe, but i think that i can pull of even 2.
+
+a) Otaku officer
+
+Dressed like a ninja, he uses jutsu skills to teleport himself on random placesin prozimity of the player, then he shoots a dozen of bullets with his rifle, like the crazy man he is.
+
+b)ond crazy fart
+
+
+i know you wanted it. will launch waves of bullets . very rare
+
+c)obstacles and garbage
+
+not a real Foe, since it can be used to your advantage. the cops con't jump it, since it's moving too slow for them..hehe..
+
+WEAPONS and UPGRADES:
+
+I plan to add mines to the game, to do a bit of mass destruction. Also, upgrades for the
+gun to make it faster and stronger. 
+
+POWERUPS:
+
+This is a bit tricky. What could be good ideas of powerups? i tried double speed, but it was awfull. 
+
+#maybe something faster of the default but not double would be better
+#also, maybe it could be the other way around, meaning everything but the player slows down
+
+
+i don't know if the problem was related to the fact that the game is isometric, thus i will need more testing;
+
+a restoreLife item is mandatory, from my experience at LD25
+
+brainstorming time!
+
+bomb
+bazooka
+cards
+candies
+pressure
+whacky
+hyperactivity!
+OOH! WHACKO TIME!! sweets fill the WACHO BAR. when full, you can go in WHACKO MODE. improved velocity and fire rate, and halfed taken damage. time upgradable...
+
+Do i even need upgrades at this point?
+
+Ok, let's mantain life token, and let's put away the kids. they are useless. instead i will put various kinds of sweets on the ground as a loot. 
+
+I can use the sweets for:
+
+upgrades;
+weapons;
+end the level;
+Whacko time!
+
+the end of level skill is a super dash forward to the next lovation (level)
+
+the objective is to do it 4 times to reach the ice creams man.
+
+talking about
+
+THE BOASS
+
+the ice creams man in his car will not easily give you his first class sweets. you need to beat him.
+
+attacks:
+
+bullet time- the gatling gun on the top of the car will want to hugh you.
+rocket hug- the rocket launcher on the top of the car will send you some presents
+smash it- the ice creams man will try to run over you
+help request-swarms of enemies at your service
+
+
+EFFECTS and ANIMATIONS and SPRITES'NSHIT
+
+
+first, an enemy dying will jump and tilt, and dissolve in mid air
+i will pass to 5 frames animations
+

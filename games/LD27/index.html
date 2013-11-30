@@ -1,0 +1,83 @@
+<html>
+	<head>
+		
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=Geo);
+			body{background-color:#130B0F;}
+			#game{
+				display:block;
+				background-color:#130B0F;
+				webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none; 
+			}
+
+
+			#title{
+				display:block;
+				background-color:#130B0F;
+				webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none; 
+			}						
+
+			.c1{
+				width:800px;
+				margin:50px auto 0 auto;
+			}
+
+			
+
+			.c2{
+				background-color:red;
+				width:216px;
+				margin:auto;
+			}
+
+			.c3{
+				width:800px;
+				margin:auto;
+			}
+
+			.notes{
+				margin-top: 60px;
+				font-family: Geo;
+				text-align: center;
+				color:#666666;
+			}
+		</style>	
+		
+   		
+	</head>
+
+	<body>
+		<div class="c1">
+			<div class="c2">
+				<canvas  id="title" width="216" height="172"></canvas>
+			</div>
+		</div>
+		
+		<div class="c3">
+			<canvas  id="game" width="800" height="200"></canvas>
+			<div class="notes">
+			instructions</br>
+			use S</br>
+			developer in 72h for Ludum Dare 27</br>
+			art and code by Watacoso</br>
+			sounds from Freesound.org</br>
+			<b>For a better experience, play with audio turned on</b>
+			</div>
+		</div>
+
+		
+
+		<script type="text/javascript" src="http://code.createjs.com/createjs-2013.05.14.min.js"></script>
+   		<script type="text/javascript" src="main.js"></script> 
+	</body>
+</html>

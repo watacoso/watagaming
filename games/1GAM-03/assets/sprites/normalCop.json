@@ -1,0 +1,49 @@
+{
+	images:[preloader.getResult('normalCopSheet').result],
+	frames:{width:70, height:70, count:15, regX:35, regY:35}, //[]
+	animations:
+			{
+				idle:[1],
+				
+				die:
+				{
+				frames:[11,12,13,14],
+				frequency:10
+				},
+				walk:
+				{
+				frames:[0,1,2,1],
+				frequency:5
+				},
+				
+				run:
+				{
+				frames:[0,1,2,1],
+				frequency:3
+				},
+				
+				shootLeft:
+				{
+				frames:[3,4,3],
+				frequency:5
+				},
+				shootTop:
+				{
+				frames:[5,8,5],
+				frequency:5
+				},
+				shootBottom:
+				{
+				frames:[6,7,6],
+				frequency:5
+				},
+				shootRight:
+				{
+				frames:[9,10,9],
+				frequency:5
+				},
+				
+				
+				
+			}
+}

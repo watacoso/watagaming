@@ -1,0 +1,31 @@
+{
+	"images":["assets/sprites/actors/rightBandit.png"],
+	"frames":{"width":160, "height":240, "count":40, "regX":80, "regY":120}, 
+	"animations":
+			{
+                "idle": {
+                    "frames": [0,1,2,3,4,5,6,7,8],
+                    "frequency": 5
+                 },
+                 "draw": {
+                    "frames": [10,11,12,13,14,15,16],
+                    "frequency": 5
+                 },
+                 "undraw": {
+                    "frames": [16,15,14,13,12,11,10],
+                    "frequency": 5
+                 },
+                 "shoot": {
+                    "frames": [17,18,19,20,21,22,23,24],
+                    "frequency": 5
+                 },
+                 "afterShoot": {
+                    "frames": [30,31,32,33,34],
+                    "frequency": 10
+                 },
+                 "die": {
+                    "frames": [25,26,27,28,29],
+                    "frequency": 10
+                 }
+            }
+}

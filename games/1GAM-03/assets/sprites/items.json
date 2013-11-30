@@ -1,0 +1,22 @@
+{
+	images:[preloader.getResult('itemSheet').result],
+	frames:{width:40, height:40, count:30, regX:20, regY:20}, //[]
+	animations:
+			{
+				enemyBullet:
+				{
+				frames:[11],
+				},
+				playerBullet:
+				{
+				frames:[12],
+				},
+				candy0:[0],
+				candy1:[1],
+				candy2:[2],
+				candy3:[3],
+				candy4:[4],
+				candy5:[5],
+				painKiller:[10]
+			}
+}

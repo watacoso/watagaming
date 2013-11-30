@@ -1,0 +1,23 @@
+{
+	images:["assets/sprites/foe.png"],
+	frames:{width:70, height:70, count:25, regX:35, regY:35}, //[]
+	animations:
+			{
+				kidWalk:
+				{
+				frames:[0,1,2,3,4,3,2,1],
+				frequency:5
+				},
+				MCopWalk:
+				{
+				frames:[5,6,7,8,9,8,7,6],
+				frequency:5
+				},
+				RCopWalk:
+				{
+				frames:[10,11,12,13,14,13,12,11],
+				frequency:5
+				}
+				
+			}
+}

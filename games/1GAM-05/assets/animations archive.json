@@ -1,0 +1,53 @@
+//PLAYER
+
+"animations":{
+        "idle_left": {
+             "frames": [0,1,2,3],
+             "frequency": 10
+         },
+         "idle_right": {
+             "frames": [4,5,6,7],
+             "frequency": 10
+         },
+         "walk_left": {
+             "frames": [8,9,10,11,12],
+             "frequency": 5
+         },
+         "walk_right": {
+             "frames": [14,15,16,17],
+             "frequency": 5
+         }
+    }  
+
+        function DebugWindow(x,y){
+        var debugwindow=new createjs.Container();
+        debugwindow.inputs=[];
+
+        var bg=new createjs.Shape();
+        bg.graphics.beginFill("#E6373A").beginStroke("#F4A4A6").rect(0,0,150,35);
+        bg.x=x;
+        bg.y=y;
+        debugwindow.addChild(bg);
+
+        debugwindow.registerInput=function(name,variable,value){
+            var t=new createjs.Text("jaaaar","bold 10px","white");
+            t.x=bg.x+10;
+            t.y=bg.y+6+this.inputs.length*15;
+            bg.graphics.beginFill("#E6373A").beginStroke("#F4A4A6").rect(0,0,150,this.inputs.length*20);
+
+            this.addChild(t);
+
+            this.inputs.push({name:name,variable:variable,value:value});
+        }
+
+        debugwindow.update=function(){
+            for(var i=0;i<this.inputs.length;i++){
+                var r=this.inputs[i].variable[this.inputs[i].value];
+                if(typeof(r)=== 'number')
+                    r=Math.floor(r);
+                this.getChildAt(i+1).text=this.inputs[i].name+" : "+r;
+            }
+        }
+
+        return debugwindow;
+    } 

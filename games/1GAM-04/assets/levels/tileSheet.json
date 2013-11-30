@@ -1,0 +1,55 @@
+{
+	images:[assets.getResult('tileSet')],
+	frames:{width:40, height:40, count:36, regX:0, regY:0}, //[]
+	animations:
+			{
+				t1:0,
+				t2:1,
+				t3:2,
+				t4:3,
+				t5:4,
+				t6:5,
+				t7:6,
+				t8:7,
+				t9:8,
+				t10:9,
+				t11:10,
+				t12:11,
+				t13:12,
+				t14:13,
+				t15:14,
+				t16:15,
+				t17:16,
+				t18:17,
+				t19:18,
+				t20:19,
+				t21:20,
+				t22:21,
+				t23:22,
+				t24:23,
+				t25:24,
+				t26:25,
+				t27:26,
+				t28:27,
+				t29:28,
+				t31:30,
+				t33:32,
+				cIcon:29,
+				bCrystal:33,
+
+				  openGate: {
+             		frames: [30,31],
+             		next: "openedGate",
+             		frequency: 7
+        		 },
+        		  closeGate: {
+             		frames: [31,30],
+             		next: "t31",
+             		frequency: 7
+        		 },
+        		  openedGate: {
+             		frames: [34,35],
+             		frequency: 15
+        		 },
+			}
+}
