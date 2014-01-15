@@ -1,0 +1,5 @@
+{
+	images:[preloader.getResult('roadSheet').result],
+	frames:{width:442, height:231, count:1, regX:0, regY:0}, //[]
+	animations:{road0:[0]}
+}

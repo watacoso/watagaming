@@ -1,0 +1,28 @@
+{
+	images:[preloader.getResult('rugbyCopSheet').result],
+	frames:{width:70, height:70, count:12, regX:35, regY:35}, //[]
+	animations:
+			{
+				walk:
+				{
+				frames:[0,1,2,1],
+				frequency:8
+				},
+				run:
+				{
+				frames:[0,1,2,1],
+				frequency:5
+				},
+				idle:
+				{
+				frames:[1],
+				frequency:5
+				},	
+				die:
+				{
+				frames:[3,4,5],
+				frequency:5
+				}	
+				
+			}
+}

@@ -1,0 +1,78 @@
+<html>
+	<head>
+		
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=Geo);
+			body{background-color:#2A2A2A;}
+			#game{margin:30px auto;display:block;background-color:#0C060E;
+				  webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none; 
+			
+				}
+
+			.leftSide{
+				float:left;
+				color:white;
+				font-family:Geo;
+				font-size:18px;
+				font-weight:bold;
+				margin-left:20px;
+				margin-top:0px;
+				background-color:#4A4A4A;
+				border-radius:5px;
+				padding:10px;
+			}
+
+			.bottomSide{
+				float:left;
+				color:white;
+				font-family:Geo;
+				font-size:18px;
+				font-weight:bold;
+				margin-left:120px;
+				margin-top:0px;
+				background-color:#4A4A4A;
+				border-radius:5px;
+				padding:10px;
+			}
+
+			.mainContainer{
+				margin-top: 20px;
+			}
+			
+		</style>	
+		<script type="text/javascript" src="http://code.createjs.com/createjs-2013.02.12.min.js"></script>
+		<script type="text/javascript" src="assets/scripts/collisionDetection.js"></script>
+   		<script type="text/javascript" src="main.js"></script> 
+   		
+	</head>
+	<body>
+
+		<div class="mainContainer">
+		
+			<div class="leftSide">
+				Ludum Dare #26
+
+				<br/>
+
+				<H1>BUG HUNTING</H1>
+				<img src="tutorial.png"></img>
+				
+			</div>
+			
+
+		<canvas  id="game" width="800" height="500">alternate Content</canvas>
+
+
+		</div>
+		<div class="bottomSide" width="750" height="150">
+			Avoid the netBugs, and break the firewall blocks to find and destroy the black square of DOOM!<br/>
+			Share your score for profit
+		</div>
+		
+	</body>
+</html>

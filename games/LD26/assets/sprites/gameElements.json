@@ -1,0 +1,14 @@
+{
+	images:[assets.getResult('gameElementsSheet')],
+	frames:{width:400, height:400, count:12, regX:200, regY:200}, //[]
+	animations:
+			{
+				player:0,
+				bullet:1,
+				gem:2,
+				enemy:3,
+				simpleTurret:4,
+				heavyTurret:5,
+				laserTurret:6
+			}
+}

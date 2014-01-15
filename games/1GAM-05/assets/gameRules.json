@@ -1,0 +1,55 @@
+{
+
+	"timeline":
+	[	
+		{"action":"talk","time":20,"parameters":{"dialog":"m0"}},
+		{"action":"setPlotStatus","parameters":{"val":"calm"}},
+		{"action":"wait"},
+		{"action":"startLevel"},
+		{"action":"spawn","time":100,"parameters":{"minion":1}},
+		{"action":"spawn","time":500,"parameters":{"minion":2}},
+		{"action":"spawn","time":500,"parameters":{"minion":3}},
+		{"action":"spawn","time":500,"parameters":{"minion":2}},
+		{"action":"spawn","time":100,"parameters":{"minion":2}},
+		{"action":"spawn","time":100,"parameters":{"minion":2}},
+		{"action":"spawn","time":200,"parameters":{"prisoner":2}},
+		{"action":"endLevel","time":0},
+		{"action":"startLevel","time":0},
+		{"action":"spawn","time":0,"parameters":{"minion":1}},
+		{"action":"spawn","time":500,"parameters":{"minion":2}},
+		{"action":"spawn","time":500,"parameters":{"minion":3}},
+		{"action":"spawn","time":500,"parameters":{"minion":2}},
+		{"action":"spawn","time":100,"parameters":{"minion":2}},
+		{"action":"spawn","time":100,"parameters":{"minion":2}},
+		{"action":"spawn","time":200,"parameters":{"prisoner":2}},
+		{"action":"endLevel","time":0},
+		{"action":"startLevel","time":0},
+		{"action":"spawn","time":0,"parameters":{"minion":1}},
+		{"action":"spawn","time":500,"parameters":{"minion":2}},
+		{"action":"spawn","time":500,"parameters":{"minion":3}},
+		{"action":"spawn","time":500,"parameters":{"minion":2}},
+		{"action":"spawn","time":100,"parameters":{"minion":2}},
+		{"action":"spawn","time":100,"parameters":{"minion":2}},
+		{"action":"spawn","time":200,"parameters":{"prisoner":2}},
+		{"action":"endLevel","time":0}
+
+	],
+	"dialogs":
+	{	
+		"m0":[
+			{"speaker":"player","text":"what?...where am i??"},
+			{"speaker":"player","text":"what is this place?"},
+			{"speaker":"player","text":"...oh god...what the hell is that giant eraser??"}
+		],
+		"m1":[
+			{"speaker":"player","text":"Dude? why the fuck am i red?"},
+			{"speaker":"elder","text":"test test test i am writing a very long sting of text to see how much can i read!!"},
+			{"speaker":"player","text":"....what is wrong with you?..."}
+		],
+		"m2":[
+			{"speaker":"player","text":"who the hell are you? and why am i red?!?"},
+			{"speaker":"elder","text":"you already asked me that!"}
+		]
+
+	}  
+}

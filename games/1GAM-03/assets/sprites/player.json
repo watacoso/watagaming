@@ -1,0 +1,12 @@
+{
+	images:[preloader.getResult('playerSheet').result],
+	frames:{width:70, height:70, count:3, regX:35, regY:35}, //[]
+	animations:
+			{
+				walk:
+				{
+				frames:[0,1,2,1],
+				frequency:5
+				}
+			}
+}
